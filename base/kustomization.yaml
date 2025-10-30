@@ -1,5 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
+
+resources:
+  - deployment.yaml
+  - service.yaml # nếu có, hoặc xoá dòng này nếu file trống
+
 images:
   - name: minhduc857/hello-world
     newName: minhduc857/hello-world
