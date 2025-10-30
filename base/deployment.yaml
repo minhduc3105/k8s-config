@@ -17,7 +17,7 @@ spec:
       containers:
         - name: hello-world
           # kustomize sẽ replace tag từ kustomization.yaml
-          image: minhduc857/hello-world:latest
+          image: minhduc857/hello-world
           ports:
             - containerPort: 8080
           livenessProbe:
