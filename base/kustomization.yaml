@@ -3,4 +3,4 @@ kind: Kustomization
 images:
   - name: minhduc857/hello-world
     newName: minhduc857/hello-world
-    newTag: 930d8fe5afab0954dedf8005e543f5ea7affef4e
+    newTag: 0a74a24ae494de037417ed3ba17e68a856933b96
