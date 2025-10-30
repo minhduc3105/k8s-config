@@ -8,4 +8,4 @@ resources:
 images:
 - name: minhduc857/hello-world
   newName: minhduc857/hello-world
-  newTag: 3a914f544d6f1c42bb0141b7ea83d8f7ba7d2620
+  newTag: 203f2871a61012074b740ad0d88fe3385f309ac2
